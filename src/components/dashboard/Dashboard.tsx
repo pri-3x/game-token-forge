@@ -161,7 +161,6 @@ const Dashboard = ({ games, tokens }: DashboardProps) => {
                     <Progress 
                       value={game.liquidity} 
                       className="h-1 bg-crypto-dark-600" 
-                      indicatorClassName="bg-gradient-to-r from-crypto-purple to-crypto-blue" 
                     />
                   </div>
                   
@@ -183,10 +182,10 @@ const Dashboard = ({ games, tokens }: DashboardProps) => {
           <CardContent className="pt-6 pb-6 relative z-10">
             <h3 className="text-lg font-bold mb-2">Ready to Deploy?</h3>
             <p className="text-sm text-gray-300 mb-4">
-              Launch your game token with bonding curve economics
+              Launch your game and its token will auto-deploy with bonding curve
             </p>
             <button className="w-full py-2.5 rounded-md bg-gradient-to-r from-crypto-purple to-crypto-blue hover:opacity-90 transition-opacity text-sm font-medium">
-              Create Game Token
+              Create New Game
             </button>
           </CardContent>
         </Card>
